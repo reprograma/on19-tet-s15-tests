@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online 19 - Todas em Tech  | Back-end | Semana 15 | 2022 | Professora X
+Turma Online 19 - Todas em Tech  | Back-end | Semana 15 | 2022 | Professora Tereza Oliveira
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
