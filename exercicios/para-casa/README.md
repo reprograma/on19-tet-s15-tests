@@ -1,10 +1,20 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+## ATIVIDADE PARA CASA
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+A atividade para casa será reproduzir os testes na mesma API que você utilizou na atividade da aula Integração Banco de Dados. Você deverá seguir o passo a passo do teste de API que praticamos no exercício para-sala e aplicar na API de sua escolha.
+
+ATENÇÃO! Você deverá esolher a API para aplicar o teste, como você já tem o repositório forkado na sua máquina, deverá subir o novo pullrequest e compartilhar no classroom.
+
+A atividade será avaliada nos seguintes critérios:
+
+- Criação de pasta e arquivo de test;
+
+- Estutura de código para teste das rotas da API;
+
+- Sintaxe de testes usando describe e matchers;
+
+- Uso do Jest e Supertest.
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
