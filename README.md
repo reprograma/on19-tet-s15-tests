@@ -38,6 +38,9 @@ O que veremos na aula de hoje?
 
 ### Material da aula 
 
+* [Slide da aula](https://github.com/reprograma/on19-tet-s15-tests/blob/main/material/Automa%C3%A7%C3%A3o%20de%20Testes.pdf)
+* [Testes unitários](/exercicios/para-sala/material)
+
 ### Links Úteis
 - [Sbre teste de API](https://medium.com/beelabacademy/testes-automatizados-de-apis-com-jest-supertest-8aa6a96f61d1)
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)
