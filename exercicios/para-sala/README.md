@@ -79,7 +79,7 @@ npm run lint
 
 No terminal, o resultado poderá ser semelhante a imagem abaixo.
 
-<center><Logotipo demostração de erro de identação do código no arquivo index.js no terminal, fundo preto e letras de cor branca><img src="./IMG/erro-eslint.jpeg" alt="registro erro eslint"></center>
+<center><Logotipo demostração de erro de identação do código no arquivo index.js no terminal, fundo preto e letras de cor branca><img src="./exercicios\IMG\erro-eslint.jpeg"alt="registro erro eslint"></center>
 
 Ao executarmos o comando, o ESLinte irá gerar um resumo da análise de erro, vamos aprender a fazer a leitura dessa validação, cada linha de erro é composta de blocos de informações. 
 
