@@ -3,4 +3,4 @@ const estoque = (livroEstoque, livroSelecionado) => {
     return livroEstoque - livroSelecionado;
 };
 
-modules.exports = estoque;
+module.exports = estoque;

@@ -1,7 +1,7 @@
 
-const multiplicar = (mutiplicarEstoque, estoqueSelecionado) => {
+/*const multiplicar = (mutiplicarEstoque, estoqueSelecionado) => {
     return mutiplicarEstoque * estoqueSelecionado;
-};
+};*/
 
 const teste = (titulo, esperado, retornado) => {
 
@@ -13,4 +13,4 @@ const teste = (titulo, esperado, retornado) => {
 }
 teste("Adição:" , 10, somaCompras(5,5))
 teste("Subtração:" , 10, estoque(20,10))
-teste("Multiplicação:" , 200, multiplicar(20,10))
+//teste("Multiplicação:" , 200, multiplicar(20,10))
