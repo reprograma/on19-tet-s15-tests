@@ -3,3 +3,5 @@ const somaCompras = (livroSelecionado, taxaEntrega) => {
 };
 
 modules.exports = somaCompras;
+
+module.exports = somaCompras;
