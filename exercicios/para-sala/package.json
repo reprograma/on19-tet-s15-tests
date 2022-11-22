@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
+    "lint": "npx eslint --fix ./testes-unitarios",
     "start": "nodemon server.js"
+    
   },
   "keywords": [],
   "author": "",
