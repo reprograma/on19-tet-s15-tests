@@ -1,11 +1,11 @@
-const DATABASE_URI= process.env.DATABASE_URI
 const mongoose = require('mongoose');
 
+const password = 
 
-mongoose.connect(DATABASE_URI,{useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mongoose.connect(
+  "LINK DO MONGO" 
+);
 
-let db = mongoose.connection;
+const db = mongoose.connection;
 
-module.exports=db;
+module.exports = db;
