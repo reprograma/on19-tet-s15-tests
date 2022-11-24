@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const password = "coldplay"
+const password = //senha MongoDB
 
 mongoose.connect(
-  `mongodb+srv://shiteles:${password}@cluster0.gkb4smu.mongodb.net/reprograma` 
+  //link MongoDB 
 );
 
 const db = mongoose.connection;
