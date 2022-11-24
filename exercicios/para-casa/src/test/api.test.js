@@ -4,9 +4,9 @@ const app = require("../app.js");
 let elementId;
 
 describe("API test", () => {
-  test("Rota Get /users/all", (done) => {
+  test("Get /tarefas", (done) => {
     request(app)
-      .get("/users/all")
+      .get("/tarefas/")
       .expect(200)
       .expect((res) => {
         expect(res.body.lenght).not.toBe(0);
@@ -16,31 +16,33 @@ describe("API test", () => {
         return done();
       });
   });
-  test("Rota Post /users/create", (done) => {
+  test("Rota Post /tarefas", (done) => {
     request(app)
-      .post("/users/create")
+      .post("/tarefas")
       .expect("Content-Type", /json/)
       .send({
-        name: "Tereza",
-        email: "tereza@reprograma.com",
-        password: "javascript",
+        descricao: "elaborar proposta de projeto",
+        dataInclusao: "02/11/2021",
+        concluido: true,
+        nomeColaboradora: "Liliane",
+        password: "senha01",
       })
       .expect(201)
       .end((err, res) => {
         if (err) return done(err);
-        elementId = res.body.savedUser._id;
+        elementId = res.body.descricao._id;
         return done();
       });
   });
 
-  test("Rota Delete /users/delete/:id", (done) => {
+  test("Rota Delete /tarefas/delete/:id", (done) => {
     request(app)
-      .delete(`/users/delete/${elementId}`)
+      .delete(`/tarefas/delete/${elementId}`)
       .expect("Content-Type", /json/)
-      .expect(200)
+      .expect(400)
       .expect((res) => {
         console.log(res.body);
-        expect(res.body.userFound.email).toBe("tereza@reprograma.com");
+        expect(res.body.tarefas.descricao).toBe("elaborar proposta de projeto");
       })
       .end((err, res) => {
         if (err) return done(err);
