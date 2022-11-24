@@ -9,7 +9,7 @@
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mikaela Clotilde",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
