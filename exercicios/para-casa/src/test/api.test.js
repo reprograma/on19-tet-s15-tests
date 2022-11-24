@@ -60,8 +60,8 @@ describe("API GAMES", () => {
 
     test("POST /add", (done) => {
         const game = {
-            consoleId: "637fc25e780f25ceca9af017",
-            name: "Super Mario kart II",
+            consoleId: "63699499a3b234527219a937",
+            name: "Mario Kart 200",
             developer: "Nintendo",
             releaseDate: 2018,
             genre: "action",
@@ -83,7 +83,7 @@ describe("API GAMES", () => {
             });
     });
     test("DELETE", (done) => {
-        const id = '636c5cd93d1b79f0d55ea525'
+        const id = '637fca85ce34a2cc6c4d83da'
         request(app)
             .delete(`/gamestore/games/${id}`)
             .expect("Content-Type", /json/)
