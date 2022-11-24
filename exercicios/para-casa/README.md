@@ -1,7 +1,3 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
-
 # INTRODUÇÃO A TESTES
 
 <p align="center">
@@ -10,13 +6,13 @@
 
 ### Tópicos 
 
-- [Descrição do projeto](#Descrição)
-- [Funcionalidades](#Padrão_MVC)
-- [Conexão com BD](#Funcionalidades)
-- [Ferramentas utilizadas](#Rotas_utilizadas_para_testes)
-- [Acesso ao projeto](#Roteiro_da_atividade)
-- [Abrir e rodar o projeto](#Orientadora)
-- [Desenvolvedores](#Autor(a))
+- [Descrição](#Descrição)
+- [Padrão_MVC](#Padrão_MVC)
+- [Funcionalidades](#Funcionalidades)
+- [Rotas Utilizadas para testes](#Rotas_utilizadas_para_testes)
+- [Roteiro da atividade](#Roteiro_da_atividade)
+- [Orientadora](#Orientadora)
+- [Autor(a)](#Autor(a))
  
 ## Descrição
 
