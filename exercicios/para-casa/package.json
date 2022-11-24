@@ -1,0 +1,25 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "A atividade para casa será reproduzir os testes na mesma API que você utilizou na atividade da aula Integração Banco de Dados. Você deverá seguir o passo a passo do teste de API que praticamos no exercício para-sala e aplicar na API de sua escolha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mellyssa Stephanny",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3"
+  },
+  "devDependencies": {
+    "jest": "28.1.0",
+    "nodemon": "^2.0.20",
+    "supertest": "6.2.3"
+  }
+}
