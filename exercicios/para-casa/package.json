@@ -4,7 +4,8 @@
   "description": "A atividade para casa será reproduzir os testes na mesma API que você utilizou na atividade da aula Integração Banco de Dados. Você deverá seguir o passo a passo do teste de API que praticamos no exercício para-sala e aplicar na API de sua escolha.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "Mellyssa Stephanny",
