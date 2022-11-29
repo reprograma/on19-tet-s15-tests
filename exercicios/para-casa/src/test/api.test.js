@@ -3,26 +3,27 @@ const app = require("../app.js");
 
 
 let elementId;
-describe("API test", () =>{  
 
+describe("API test", () =>{  
 
 test("Rota Post/tarefa/", (done) =>{
     request(app)
-    .post("/tarefa/create")
+    .post("/tarefa")
     .expect("Content-Type", /json/)
    
     .send({
 
         descricao:"hefkohoh",
-        dataInclusao: 27/11/22,
-        concluido:true,
+        dataInclusao: "27/11/22",
+        concluido:"true",
         nome: "lkdvajbçjr",
         senha:"queodio"
+        
     })
     .expect(201)
     .end((err, res) => {
         if(err) return done(err);
-        elementId = res.body.savedTarefa._id;
+        elementId = res.body.savedTarefa.elementId;
         return done();
        
     })
