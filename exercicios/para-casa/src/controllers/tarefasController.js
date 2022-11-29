@@ -6,30 +6,27 @@
 
 
 
-const tarefas = require("../models/tarefas");
-const SECRET = process.env.SECRET
-const jwt = require("jsonwebtoken")
-const bcrypt = require("bcrypt")
+const tarefaSchema = require("../models/tarefas");
 
 
-const postTarefa = (req, res) => {
-  const senhaComHash = bcrypt.hashSync(req.body.nome, 10);
-  req.body.nome = senhaComHash;
+const createTarefa = async (req, res) => {
+  try {
+    const newTarefa = new tarefaSchema(req.body);
 
-  const tarefa = new tarefas(req.body);
+    const savedTarefa = await newTarefa.save( );
 
- tarefa.save(function (err) {
-    if (err) {
-      return res.status(500).send({ message: err.message })
-    }
-   res.status(201).send(tarefa.toJSON());
-  });
+    return res.status(201).send({
+      "message": "Tarefa criada com sucesso",
+      savedTarefa
+    });
+  } catch (e) {
+    console.error(e);
+  };
 };
-
 
 
 module.exports = {
 
-    postTarefa,
+  createTarefa,
   
 }

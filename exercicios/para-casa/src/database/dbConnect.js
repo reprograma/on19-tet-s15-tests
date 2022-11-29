@@ -1,12 +1,11 @@
+const mongoose = require('mongoose');
 
-const DATABASE_MONGO = process.env.DATABASE_MONGO
-const mongoose  = require ("mongoose");
+const password = "queodio01";
 
-mongoose.connect(DATABASE_MONGO, {
- useNewUrlParser: true,
- useUnifiedTopology: true
-})
+mongoose.connect(`mongodb+srv://dlsfarias:${password}@cluster0.go1bjkv.mongodb.net/reprograma`
+ 
+);
 
-let db = mongoose.connection;
+const db = mongoose.connection;
 
 module.exports = db;

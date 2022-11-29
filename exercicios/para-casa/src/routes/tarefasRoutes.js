@@ -5,7 +5,7 @@ const router = express.Router();
 
 
 
-router.post("/", controller.postTarefa);
+router.post("/", controller.createTarefa);
 
 
 module.exports = router;

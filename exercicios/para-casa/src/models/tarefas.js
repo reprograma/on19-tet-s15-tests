@@ -8,8 +8,6 @@ concluido: { type: Boolean },
 nome: { type: String },
 senha:{ type: String }
     
-},{
-    versionKey: false
 })
 
 const tarefas = mongoose.model('tarefa', tarefasSchema);
