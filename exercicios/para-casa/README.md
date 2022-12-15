@@ -1,22 +1,22 @@
 # Exercício de Casa 🏠 
 
-## ATIVIDADE PARA CASA
+## Atividade para casa
 
-A atividade para casa será reproduzir os testes na mesma API que você utilizou na atividade da aula Integração Banco de Dados. Você deverá seguir o passo a passo do teste de API que praticamos no exercício para-sala e aplicar na API de sua escolha.
+A atividade será criar uma nova rota no models de tarefas.js, fazer todas as etapas de autenticação no passo a passo acima. A Schema de tarefas será na seguinte estrutura:
 
-ATENÇÃO! Você deverá esolher a API para aplicar o teste, como você já tem o repositório forkado na sua máquina, deverá subir o novo pullrequest e compartilhar no classroom.
+```
+    id : { type : Number},
+    descricao: { type: String },
+    dataInclusao: { type: String },
+    concluido: { type: Boolean },
+    nomeColaboradora: { type: String }
+```
 
-A atividade será avaliada nos seguintes critérios:
+Apenas a rota getAll, será necessária. O objetivo é de testar no postman trazer todas as listas de tarefas com a autenticação reconhecendo o header.
 
-- Criação de pasta e arquivo de test;
+Faça o fork desse repositório e clone na sua máquina, crie uma branch, após as alterações, realize o pull request e siga o procedimento de registro de atividade. 
 
-- Estutura de código para teste das rotas da API;
-
-- Sintaxe de testes usando describe e matchers;
-
-- Uso do Jest e Supertest.
----
-
+--------------------------------------------------------------------------------------------------------
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
 - [ ] Fiz o fork do repositório.

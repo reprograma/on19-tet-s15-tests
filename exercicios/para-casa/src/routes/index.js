@@ -4,7 +4,8 @@ const router = express.Router()
 router.get("/", function (req, res) {
     res.status(200).send({
         title: "Reprograma On19 - Semana 14 - Autenticação",
-        version: "1.0.0"
+        author: "Laura Rocha",
+        version: "1.1.0"
     })
 })
 
