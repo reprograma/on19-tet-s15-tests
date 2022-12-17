@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const password = " ";
+const password = "lari2108";
 
 mongoose.connect(
-  `mongodb+srv://admin:${password}@cluster0.1vuycki.mongodb.net/reprograma` 
+  `mongodb+srv://larissafontes:${password}@cluster0.3f27kxu.mongodb.net/reprograma` 
 );
 
 const db = mongoose.connection;
