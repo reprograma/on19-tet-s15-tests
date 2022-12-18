@@ -6,7 +6,8 @@
   "scripts": {   
     "start": "nodemon server.js", 
     "lint": "npx eslint --fix ./testes-unitarios",
-    "test": "jest ./test"
+    "test": "jest ./src/test/api.test.js"
+
   },
   "keywords": [],
   "author": "",

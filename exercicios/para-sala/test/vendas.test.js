@@ -7,3 +7,10 @@ test("Deve retornar a soma das compras com taxa de entrega", () =>{
   
  expect(retornado).toBe(esperado)
 });
+
+test("Deve retornar a diferença que restou no estoque", () => {
+    const esperado = 2530;
+    const retornado = estoque(2500, 30);
+
+    expect(retornado).toBe(esperado);
+})
