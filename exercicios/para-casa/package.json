@@ -1,0 +1,23 @@
+{
+  "name": "on19-tet-s13-bd-projeto-guiado-iii",
+  "version": "1.0.2",
+  "description": "Projeto gamedatabase",
+  "main": "index.js",
+  "scripts": {
+    "test": "test ./src/test/api.test.js",
+    "lint": "npx eslint --fix ./testes-unitarios",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "jest": "28.1.0",
+    "nodemon": "^2.0.20",
+    "supertest": "6.2.3"
+  }
+}
